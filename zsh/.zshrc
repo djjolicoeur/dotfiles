@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/djolicoeur/.oh-my-zsh
+export ZSH=/Users/djjolicoeur/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -83,9 +83,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# The next line updates PATH for the Google Cloud SDK.
-source '/Users/djolicoeur/google-cloud-sdk/path.zsh.inc'
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# The next line enables shell command completion for gcloud.
-source '/Users/djolicoeur/google-cloud-sdk/completion.zsh.inc'
-. /Users/djolicoeur/icx/belushi-integration/.tmp/vagrant_host_bootstrap
